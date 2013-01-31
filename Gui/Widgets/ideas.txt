@@ -1,0 +1,12 @@
+# Launcher
+- félköríves scroll
+- kijelölt ikon szomszédjai is kicsit megnõnek -> kb mac doc
+- kijelölt ikonon kívül többire valami halványítás effekt
+
+# Browser
+Vegigkeresi a telepitett appokat a gepen, es a mi altalunk is tamogatottakra felajanlja, hogy alank bemasolja, figyeli az update-it, stb.
+- nagyméretû launcher -> kb. mac Applications szerûen, de keresõvel (és lehetõleg animációval)
+- lecsúszó status bar -> csak akkor jelenik meg, ha van vmi üzenet, pl. InstallBundle, update, ...
+-> kb. evernote iPhone app szerûen, bármilyen widget berakható, fadeinout, mikor végzett (timer v vmilyen akció hatására) akkor kiad egy signal-t
+
+-> olyan ikon animáció, ahol pl. keresésnél nem átrendezõdnek az ikonok, hanem kicserélõdnek. azaz az addigi elkezd a saját kis területén jobbra kicsúszni jobbra, míg az új ezzel egy idõben becsúszik a helyére balról, ehhez hasonlóan: http://www.youtube.com/watch?v=SUKXD-KwXe4

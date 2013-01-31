@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/MenuPrototype1">
+        <file alias="menuBackgroundPngX">menuBackgroundPrototype1.png</file>
+        <file alias="menuBackgroundPng2">menuBackgroundPrototype2.png</file>
+        <file alias="menuBackgroundPng">menuBackgroundPrototype3.png</file>
+    </qresource>
+</RCC>

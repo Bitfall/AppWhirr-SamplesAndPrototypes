@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="steps">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="inargs" minOccurs="0" maxOccurs="1">
+        <xs:complexType>
+          <xs:sequence>
+			<xs:element name="inarg">
+				<xs:attribute name="alias" type="xs:string" use="required"/>
+				<xs:attribute name="awvalue" type="xs:string" use="required"/>
+			</xs:element>
+		  </xs:sequence>
+		</xs:complexType>
+	  </xs:element>
+	  <xs:element name="step" minOccurs="0" maxOccurs="unbounded">
+        <xs:complexType>
+          <xs:sequence>
+			<xs:element name="registry" minOccurs="0" maxOccurs="unbounded">
+			  <xs:complexType>
+				<xs:sequence>
+				  <xs:element name="createkey" minOccurs="0" maxOccurs="unbounded">
+					<xs:complexType>
+					  <xs:sequence>
+					  </xs:sequence>
+					</xs:complexType>
+					<xs:attribute name="path" type="xs:string" use="required"/>
+				  </xs:element>
+				</xs:sequence>
+			  </xs:complexType>
+			</xs:element>
+		  </xs:sequence>
+		</xs:complexType>
+	  </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+</xs:schema>

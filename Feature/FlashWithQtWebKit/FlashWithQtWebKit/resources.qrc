@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="GuiConf">Resources/guiconfig.uiconf</file>
+    </qresource>
+</RCC>

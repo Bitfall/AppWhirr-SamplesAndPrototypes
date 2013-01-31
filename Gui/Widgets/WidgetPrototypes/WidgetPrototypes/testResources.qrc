@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/test">
+        <file alias="intelligent_button-collapse">Resources/simple_green_minus_button_image.png</file>
+        <file alias="intelligent_button-expand">Resources/simple_green_plus_button_image.png</file>
+        <file alias="intelligentButtonBackground">Resources/button-test-background.png</file>
+    </qresource>
+</RCC>

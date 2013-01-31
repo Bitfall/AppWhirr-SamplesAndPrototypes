@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="InstallXmlSchema">Resources/test_install.xsd</file>
+    </qresource>
+</RCC>

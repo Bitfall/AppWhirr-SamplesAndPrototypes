@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>512</width>
+    <height>367</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QTextEdit" name="textEdit">
+        <property name="styleSheet">
+         <string notr="true">
+QTextEdit {
+	background: #f0e0e0;
+	border-style: solid;
+border-width: 1px;
+border-color: #000000;
+}</string>
+        </property>
+        <property name="html">
+         <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:14px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Arial,Helvetica,sans'; font-size:8pt; color:#000000;&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas aliquam, diam eget venenatis vehicula, enim massa iaculis quam, in tincidunt sem massa sed purus. Aenean quis lacus libero, nec suscipit justo. Maecenas mollis, massa ut scelerisque sollicitudin, neque nibh sodales velit, quis mattis orci tortor et orci. In in risus ante, id rhoncus ante. In sagittis risus id odio dictum tincidunt. Aliquam placerat, ante ac pharetra iaculis, neque mauris consequat eros, in pulvinar odio orci vel mauris. Vivamus turpis sapien, suscipit id hendrerit porta, rutrum eu velit. Phasellus non cursus odio. In hac habitasse platea dictumst. Duis malesuada dui in ligula ornare porttitor ultricies ante interdum. Sed aliquam, lectus at mollis tempor, erat ipsum venenatis lacus, non pellentesque risus odio eu arcu. Proin ante risus, feugiat id porttitor eu, viverra ut risus.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:14px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Arial,Helvetica,sans'; font-size:8pt; color:#000000;&quot;&gt;Sed arcu nisi, tempus vel egestas vitae, ultricies sed justo. Quisque ullamcorper, sapien nec pellentesque mattis, orci sapien commodo tortor, at auctor diam erat ac risus. Vivamus pretium justo sit amet odio tincidunt posuere. Pellentesque turpis arcu, rutrum vitae condimentum sit amet, scelerisque in ante. Donec in tortor quis purus ultricies pellentesque. Suspendisse potenti. Pellentesque et odio at augue tempor varius eget at mauris. Cras bibendum convallis tortor, nec congue quam ultrices a. Cras eget dui felis. Cras lobortis consequat magna, quis fermentum arcu pulvinar sed. Nunc pharetra semper consectetur. Nunc nec aliquet enim.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:14px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Arial,Helvetica,sans'; font-size:8pt; color:#000000;&quot;&gt;Sed tincidunt condimentum vestibulum. Duis a quam leo. Nam sit amet auctor elit. Curabitur auctor erat vitae arcu tristique dictum dictum tellus tempus. Praesent a lectus quam. Nam sollicitudin blandit est, et vestibulum ante tincidunt lobortis. Integer non tellus quis felis auctor rutrum in laoreet ligula. Suspendisse lorem velit, venenatis non molestie hendrerit, semper ac leo. Vivamus cursus, elit non posuere aliquam, mi sem congue ipsum, et tincidunt mauris erat at massa.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:14px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Arial,Helvetica,sans'; font-size:8pt; color:#000000;&quot;&gt;Phasellus libero nunc, fringilla et tincidunt sed, consequat in tortor. Curabitur mi metus, malesuada nec dictum sit amet, semper nec purus. Fusce turpis velit, lacinia quis mattis vitae, laoreet ut erat. Sed ut velit in felis congue accumsan ut vitae nisi. Sed vel fermentum libero. Etiam at massa ut nunc euismod fringilla. Aenean molestie lobortis convallis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris nec sem quam. Sed placerat sapien ut augue iaculis at iaculis neque condimentum. Nam dapibus iaculis augue, a hendrerit libero tincidunt nec. Phasellus sit amet tortor et lorem dictum euismod. Etiam vehicula justo at nisi commodo pellentesque. Nullam id orci id nibh iaculis lobortis nec vel turpis. Fusce tristique augue ut velit volutpat ornare sit amet convallis purus. Donec at leo nec mauris lacinia suscipit.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:14px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Arial,Helvetica,sans'; font-size:8pt; color:#000000;&quot;&gt;Praesent in metus nulla, sed dictum eros. Fusce eget diam mi, vitae aliquet turpis. Etiam egestas congue massa, a hendrerit nisi varius eu. Cras cursus libero sit amet nulla condimentum tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec mattis elementum vestibulum. Praesent malesuada ligula at risus ullamcorper pretium. Maecenas interdum semper enim, et tempus mauris cursus vel. Fusce faucibus consectetur placerat. Nullam non nulla magna, vitae elementum magna. Aliquam a ipsum a urna placerat pharetra quis nec nisl. Donec semper, quam nec vestibulum accumsan, elit ipsum elementum nisi, at fermentum lectus metus a erat.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>512</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

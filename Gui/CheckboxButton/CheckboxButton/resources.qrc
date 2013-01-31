@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="Checkbox-Checked-Normal">Resources/images/checkbox/checkbox-checked.png</file>
+        <file alias="Checkbox-Default-Normal">Resources/images/checkbox/checkbox-default.png</file>
+    </qresource>
+</RCC>

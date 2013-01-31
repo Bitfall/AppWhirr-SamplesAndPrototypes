@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-2" ?>
+<install>
+	<inargs>
+		<inarg alias='_AppRootPath_' awvalue='AppRootAbsolutePath' />
+	</inargs>
+	<steps>
+		<step idx="0">
+			<registry>
+				<createkey path="HKEY_CLASSES_ROOT\myapp">
+					<defaultvalue>"URL:myapp protocoll"</defaultvalue>
+					<createvalue>
+						<key>URL Protocol</key>
+						<value />
+					</createvalue>
+				</createkey>
+				<createkey path="HKEY_CLASSES_ROOT\myapp\DefaultIcon">
+					<defaultvalue>"\"_AppRootPath_\\myapp.ico\""</defaultvalue>
+				</createkey>
+				<createkey path="HKEY_CLASSES_ROOT\myapp\shell" />
+			</registry>
+		</step>
+		<step idx="1">
+			<registry>
+				<createkey path="HKEY_CLASSES_ROOT\myapp\shell\open" />
+				<createkey path="HKEY_CLASSES_ROOT\myapp\shell\open\command">
+					<defaultvalue>@="\"_AppRootPath_\\myapp.exe\" \"%1\""</defaultvalue>
+				</createkey>
+			</registry>
+		</step>
+	</steps>
+</install>
